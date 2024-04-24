@@ -26,7 +26,7 @@ except ModuleNotFoundError:
 
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 try:
-    prox= requests.get('https://github.com/HASHISH100/Approvel.txt').text
+    prox= requests.get('https://github.com/HASHISH100/usmeet.txt').text
     open('proxies.txt','w').write(proxies)
 except Exception as e:
     print('')
@@ -39,7 +39,7 @@ try:
 except:pass
 usr=[]
 try:
-    xd=requests.get('https://github.com/HASHISH100/Approvel.txt').text.splitlines()
+    xd=requests.get('https://github.com/HASHISH100/usmeet.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
@@ -73,20 +73,20 @@ except ModuleNotFoundError:
 
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 try:
-    prox= requests.get('https://github.com/HASHISH100/Approvel.txt').text
+    prox= requests.get('https://github.com/HASHISH100/usmeet.txt').text
     open('proxies.txt','w').write(proxies)
 except Exception as e:
     print('')
 proxies=open('proxies.txt','r').read().splitlines()
 android_models=[]
 try:
-    xx = requests.get('https://github.com/HASHISH100/Approvel.txt').text.splitlines()
+    xx = requests.get('https://github.com/HASHISH100/usmeet.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
 usr=[]
 try:
-    xd=requests.get('https://github.com/HASHISH100/Approvel.txt').text.splitlines()
+    xd=requests.get('https://github.com/HASHISH100/usmeet.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
